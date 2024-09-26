@@ -6,4 +6,4 @@
 1|location|variable|struct Point {int, int}
 1|symbol|variable|char
 1|health|variable|short
-2|p|variable|struct Player {struct Point {int, int}, char, short}
+1|p|variable|struct Player {struct Point {int, int}, char, short}

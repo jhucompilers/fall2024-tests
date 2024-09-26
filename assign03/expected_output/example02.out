@@ -2,4 +2,4 @@
 0|main|function|function () returning int
 1|a|variable|int
 1|b|variable|int
-2|sum|variable|int
+1|sum|variable|int

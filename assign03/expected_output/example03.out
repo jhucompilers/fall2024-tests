@@ -1,4 +1,4 @@
 0|incr|function|function (pointer to int) returning void
 0|main|function|function () returning int
 1|p|variable|pointer to int
-2|a|variable|int
+1|a|variable|int

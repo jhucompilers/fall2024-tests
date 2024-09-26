@@ -3,8 +3,8 @@
 0|main|function|function () returning int
 1|x|variable|int
 1|y|variable|char
-2|result|variable|int
-2|f|variable|int
-3|f|variable|struct Foo {int, char}
-5|f|variable|pointer to const char
-5|f|variable|unsigned long
+1|result|variable|int
+1|f|variable|int
+2|f|variable|struct Foo {int, char}
+4|f|variable|pointer to const char
+4|f|variable|unsigned long

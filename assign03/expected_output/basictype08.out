@@ -1,4 +1,4 @@
 0|main|function|function () returning int
-2|vc|variable|volatile char
-2|vus|variable|volatile unsigned short
-2|vl|variable|volatile long
+1|vc|variable|volatile char
+1|vus|variable|volatile unsigned short
+1|vl|variable|volatile long

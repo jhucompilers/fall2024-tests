@@ -2,5 +2,5 @@
 0|main|function|function () returning int
 1|arr|variable|pointer to int
 1|n|variable|int
-2|a|variable|array of 5 x int
-2|tot|variable|int
+1|a|variable|array of 5 x int
+1|tot|variable|int

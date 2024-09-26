@@ -1,4 +1,4 @@
 0|main|function|function () returning int
-2|l1|variable|long
-2|l2|variable|long
-2|l3|variable|unsigned long
+1|l1|variable|long
+1|l2|variable|long
+1|l3|variable|unsigned long

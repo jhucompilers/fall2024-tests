@@ -7,8 +7,8 @@
 1|p2|variable|pointer to struct Point {int, int}
 1|p1|variable|pointer to struct Point {int, int}
 1|p2|variable|pointer to struct Point {int, int}
-2|xdiff|variable|int
-2|ydiff|variable|int
-2|a|variable|struct Point {int, int}
-2|b|variable|struct Point {int, int}
-2|result|variable|int
+1|xdiff|variable|int
+1|ydiff|variable|int
+1|a|variable|struct Point {int, int}
+1|b|variable|struct Point {int, int}
+1|result|variable|int

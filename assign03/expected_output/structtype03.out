@@ -2,5 +2,5 @@
 0|main|function|function () returning int
 1|x|variable|int
 1|y|variable|int
-2|points|variable|array of 10 x struct Point {int, int}
-2|i|variable|int
+1|points|variable|array of 10 x struct Point {int, int}
+1|i|variable|int
