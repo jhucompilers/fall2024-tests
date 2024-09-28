@@ -1,1 +1,1 @@
-input/badvar02.c:6:7:Error: redefinition of 'x'
+input/badvar02.c:6:3:Error: Redefinition of 'x'
