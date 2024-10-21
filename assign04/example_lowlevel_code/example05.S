@@ -1,5 +1,5 @@
 
-/* Allocating storage for function 'sum'
+/* Allocating storage for function 'sum' */
 /* variable 'a' allocated vreg 10 */
 /* variable 'b' allocated vreg 11 */
 /* variable 'result' allocated vreg 12 */
@@ -8,7 +8,7 @@
 /* Function 'sum': placing vreg storage at offset -32 from %rbp */
 /* Function 'sum': 32 bytes of local storage allocated in stack frame */
 
-/* Allocating storage for function 'main'
+/* Allocating storage for function 'main' */
 /* variable 'x' allocated vreg 10 */
 /* variable 'y' allocated vreg 11 */
 /* variable 'z' allocated vreg 12 */

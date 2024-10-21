@@ -1,5 +1,5 @@
 
-/* Allocating storage for function 'sum'
+/* Allocating storage for function 'sum' */
 /* variable 'a' allocated vreg 10 */
 /* variable 'n' allocated vreg 11 */
 /* variable 'i' allocated vreg 12 */
@@ -9,7 +9,7 @@
 /* Function 'sum': placing vreg storage at offset -96 from %rbp */
 /* Function 'sum': 96 bytes of local storage allocated in stack frame */
 
-/* Allocating storage for function 'main'
+/* Allocating storage for function 'main' */
 /* variable 'arr' allocated 12 bytes of storage at offset 0 */
 /* variable 'result' allocated vreg 10 */
 /* Function 'main' uses 12 bytes of memory and 11 virtual registers */

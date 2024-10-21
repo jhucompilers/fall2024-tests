@@ -1,5 +1,5 @@
 
-/* Allocating storage for function 'read_m10x10'
+/* Allocating storage for function 'read_m10x10' */
 /* variable 'arr' allocated vreg 10 */
 /* variable 'i' allocated vreg 11 */
 /* Function 'read_m10x10' uses 0 bytes of memory and 12 virtual registers */
@@ -7,7 +7,7 @@
 /* Function 'read_m10x10': placing vreg storage at offset -80 from %rbp */
 /* Function 'read_m10x10': 80 bytes of local storage allocated in stack frame */
 
-/* Allocating storage for function 'main'
+/* Allocating storage for function 'main' */
 /* variable 'a' allocated 800 bytes of storage at offset 0 */
 /* variable 'b' allocated 800 bytes of storage at offset 800 */
 /* variable 'c' allocated 800 bytes of storage at offset 1600 */

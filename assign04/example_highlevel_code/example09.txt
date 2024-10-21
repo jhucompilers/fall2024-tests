@@ -1,12 +1,12 @@
 
-/* Allocating storage for function 'sum'
+/* Allocating storage for function 'sum' */
 /* variable 'a' allocated vreg 10 */
 /* variable 'n' allocated vreg 11 */
 /* variable 'i' allocated vreg 12 */
 /* variable 'sum' allocated vreg 13 */
 /* Function 'sum' uses 0 bytes of memory and 14 virtual registers */
 
-/* Allocating storage for function 'main'
+/* Allocating storage for function 'main' */
 /* variable 'arr' allocated 12 bytes of storage at offset 0 */
 /* variable 'result' allocated vreg 10 */
 /* Function 'main' uses 12 bytes of memory and 11 virtual registers */

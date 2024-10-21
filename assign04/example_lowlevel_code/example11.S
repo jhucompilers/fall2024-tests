@@ -1,5 +1,5 @@
 
-/* Allocating storage for function 'main'
+/* Allocating storage for function 'main' */
 /* variable 'a' allocated 4 bytes of storage at offset 0 */
 /* variable 'p' allocated 8 bytes of storage at offset 8 */
 /* variable 'pp' allocated vreg 10 */

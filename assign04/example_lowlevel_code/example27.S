@@ -1,5 +1,5 @@
 
-/* Allocating storage for function 'main'
+/* Allocating storage for function 'main' */
 /* variable 'i' allocated vreg 10 */
 /* variable 'j' allocated vreg 11 */
 /* variable 'n' allocated vreg 12 */

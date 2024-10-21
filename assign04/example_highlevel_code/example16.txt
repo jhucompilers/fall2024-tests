@@ -1,5 +1,5 @@
 
-/* Allocating storage for function 'main'
+/* Allocating storage for function 'main' */
 /* Function 'main' uses 0 bytes of memory and 10 virtual registers */
 
 	.section .rodata

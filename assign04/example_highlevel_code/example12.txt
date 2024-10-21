@@ -1,5 +1,5 @@
 
-/* Allocating storage for function 'main'
+/* Allocating storage for function 'main' */
 /* variable 'p' allocated 8 bytes of storage at offset 0 */
 /* Function 'main' uses 8 bytes of memory and 10 virtual registers */
 

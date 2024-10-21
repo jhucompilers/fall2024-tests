@@ -1,5 +1,5 @@
 
-/* Allocating storage for function 'main'
+/* Allocating storage for function 'main' */
 /* variable 'points' allocated 24 bytes of storage at offset 0 */
 /* variable 'i' allocated vreg 10 */
 /* variable 'count' allocated vreg 11 */

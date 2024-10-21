@@ -1,5 +1,5 @@
 
-/* Allocating storage for function 'main'
+/* Allocating storage for function 'main' */
 /* variable 'x' allocated vreg 10 */
 /* variable 'y' allocated vreg 11 */
 /* Function 'main' uses 0 bytes of memory and 12 virtual registers */
