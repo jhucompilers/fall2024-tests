@@ -18,7 +18,6 @@ main:
 	mov_l    vr12, vr15
 	mov_l    vr0, vr12
 	jmp      .Lmain_return
-	jmp      .Lmain_return
 .Lmain_return:
 	leave    $0
 	ret      

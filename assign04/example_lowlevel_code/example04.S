@@ -47,7 +47,6 @@ main:
 	jne      .L0
 	movl     -40(%rbp), %eax     /* mov_l    vr0, vr12 */
 	jmp      .Lmain_return       /* jmp      .Lmain_return */
-	jmp      .Lmain_return       /* jmp      .Lmain_return */
 .Lmain_return:
 	addq     $64, %rsp           /* leave    $0 */
 	popq     %rbp

@@ -68,7 +68,6 @@ sum:
 	jne      .L0
 	movl     -72(%rbp), %eax     /* mov_l    vr0, vr13 */
 	jmp      .Lsum_return        /* jmp      .Lsum_return */
-	jmp      .Lsum_return        /* jmp      .Lsum_return */
 .Lsum_return:
 	addq     $96, %rsp           /* leave    $0 */
 	popq     %rbp
@@ -137,7 +136,6 @@ main:
 	movl     -24(%rbp), %r10d    /* mov_l    vr10, vr31 */
 	movl     %r10d, -192(%rbp)
 	movl     -192(%rbp), %eax    /* mov_l    vr0, vr10 */
-	jmp      .Lmain_return       /* jmp      .Lmain_return */
 	jmp      .Lmain_return       /* jmp      .Lmain_return */
 .Lmain_return:
 	addq     $192, %rsp          /* leave    $12 */

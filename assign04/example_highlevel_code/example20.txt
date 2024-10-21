@@ -15,7 +15,6 @@ ctoi:
 	sconv_bl vr11, vr10
 	mov_l    vr0, vr11
 	jmp      .Lctoi_return
-	jmp      .Lctoi_return
 .Lctoi_return:
 	leave    $0
 	ret      
@@ -60,7 +59,6 @@ main:
 	call     print_nl
 	mov_l    vr20, $0
 	mov_l    vr0, vr20
-	jmp      .Lmain_return
 	jmp      .Lmain_return
 .Lmain_return:
 	leave    $0

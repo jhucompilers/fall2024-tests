@@ -33,7 +33,6 @@ sum:
 	movl     %r10d, -16(%rbp)
 	movl     -16(%rbp), %eax     /* mov_l    vr0, vr12 */
 	jmp      .Lsum_return        /* jmp      .Lsum_return */
-	jmp      .Lsum_return        /* jmp      .Lsum_return */
 .Lsum_return:
 	addq     $32, %rsp           /* leave    $0 */
 	popq     %rbp
@@ -57,7 +56,6 @@ main:
 	movl     -8(%rbp), %r10d     /* mov_l    vr12, vr15 */
 	movl     %r10d, -32(%rbp)
 	movl     -32(%rbp), %eax     /* mov_l    vr0, vr12 */
-	jmp      .Lmain_return       /* jmp      .Lmain_return */
 	jmp      .Lmain_return       /* jmp      .Lmain_return */
 .Lmain_return:
 	addq     $48, %rsp           /* leave    $0 */

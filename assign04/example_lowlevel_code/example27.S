@@ -156,7 +156,6 @@ main:
 	movl     $0, -416(%rbp)      /* mov_l    vr28, $0 */
 	movl     -416(%rbp), %eax    /* mov_l    vr0, vr28 */
 	jmp      .Lmain_return       /* jmp      .Lmain_return */
-	jmp      .Lmain_return       /* jmp      .Lmain_return */
 .Lmain_return:
 	addq     $560, %rsp          /* leave    $400 */
 	popq     %rbp

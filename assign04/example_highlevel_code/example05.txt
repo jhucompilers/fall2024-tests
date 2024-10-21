@@ -22,7 +22,6 @@ sum:
 	mov_l    vr12, vr13
 	mov_l    vr0, vr12
 	jmp      .Lsum_return
-	jmp      .Lsum_return
 .Lsum_return:
 	leave    $0
 	ret      
@@ -40,7 +39,6 @@ main:
 	mov_l    vr15, vr0
 	mov_l    vr12, vr15
 	mov_l    vr0, vr12
-	jmp      .Lmain_return
 	jmp      .Lmain_return
 .Lmain_return:
 	leave    $0

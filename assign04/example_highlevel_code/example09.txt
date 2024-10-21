@@ -38,7 +38,6 @@ sum:
 	cjmp_t   vr21, .L0
 	mov_l    vr0, vr13
 	jmp      .Lsum_return
-	jmp      .Lsum_return
 .Lsum_return:
 	leave    $0
 	ret      
@@ -75,7 +74,6 @@ main:
 	mov_l    vr31, vr0
 	mov_l    vr10, vr31
 	mov_l    vr0, vr10
-	jmp      .Lmain_return
 	jmp      .Lmain_return
 .Lmain_return:
 	leave    $12

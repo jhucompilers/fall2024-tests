@@ -309,7 +309,6 @@ main:
 	movl     $0, -2592(%rbp)     /* mov_l    vr24, $0 */
 	movl     -2592(%rbp), %eax   /* mov_l    vr0, vr24 */
 	jmp      .Lmain_return       /* jmp      .Lmain_return */
-	jmp      .Lmain_return       /* jmp      .Lmain_return */
 .Lmain_return:
 	addq     $2704, %rsp         /* leave    $2400 */
 	popq     %rbp

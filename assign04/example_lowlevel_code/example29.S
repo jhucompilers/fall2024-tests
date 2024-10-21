@@ -313,7 +313,6 @@ main:
 	movl     $0, -6000192(%rbp)  /* mov_l    vr26, $0 */
 	movl     -6000192(%rbp), %eax /* mov_l    vr0, vr26 */
 	jmp      .Lmain_return       /* jmp      .Lmain_return */
-	jmp      .Lmain_return       /* jmp      .Lmain_return */
 .Lmain_return:
 	addq     $6000320, %rsp      /* leave    $6000000 */
 	popq     %rbp

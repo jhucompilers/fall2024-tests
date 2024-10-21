@@ -25,7 +25,6 @@ ctoi:
 	movl     %r10d, -8(%rbp)
 	movl     -8(%rbp), %eax      /* mov_l    vr0, vr11 */
 	jmp      .Lctoi_return       /* jmp      .Lctoi_return */
-	jmp      .Lctoi_return       /* jmp      .Lctoi_return */
 .Lctoi_return:
 	addq     $16, %rsp           /* leave    $0 */
 	popq     %rbp
@@ -73,7 +72,6 @@ main:
 	call     print_nl            /* call     print_nl */
 	movl     $0, -8(%rbp)        /* mov_l    vr20, $0 */
 	movl     -8(%rbp), %eax      /* mov_l    vr0, vr20 */
-	jmp      .Lmain_return       /* jmp      .Lmain_return */
 	jmp      .Lmain_return       /* jmp      .Lmain_return */
 .Lmain_return:
 	addq     $96, %rsp           /* leave    $0 */
