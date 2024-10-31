@@ -5,9 +5,9 @@
 /* variable 'i' allocated vreg 12 */
 /* variable 'sum' allocated vreg 13 */
 /* Function 'sum' uses 0 bytes of memory and 14 virtual registers */
-/* Function 'sum' uses 96 total bytes of memory storage for vregs */
-/* Function 'sum': placing vreg storage at offset -96 from %rbp */
-/* Function 'sum': 96 bytes of local storage allocated in stack frame */
+/* Function 'sum' uses 112 total bytes of memory storage for vregs */
+/* Function 'sum': placing vreg storage at offset -112 from %rbp */
+/* Function 'sum': 112 bytes of local storage allocated in stack frame */
 
 /* Allocating storage for function 'main' */
 /* variable 'arr' allocated 12 bytes of storage at offset 0 */
@@ -24,52 +24,52 @@
 sum:
 	pushq    %rbp                /* enter    $0 */
 	movq     %rsp, %rbp
-	subq     $96, %rsp
-	movq     %rdi, -96(%rbp)     /* mov_q    vr10, vr1 */
-	movl     %esi, -88(%rbp)     /* mov_l    vr11, vr2 */
-	movl     $0, -64(%rbp)       /* mov_l    vr14, $0 */
-	movl     -64(%rbp), %r10d    /* mov_l    vr13, vr14 */
-	movl     %r10d, -72(%rbp)
-	movl     $0, -56(%rbp)       /* mov_l    vr15, $0 */
-	movl     -56(%rbp), %r10d    /* mov_l    vr12, vr15 */
-	movl     %r10d, -80(%rbp)
+	subq     $112, %rsp
+	movq     %rdi, -112(%rbp)    /* mov_q    vr10, vr1 */
+	movl     %esi, -104(%rbp)    /* mov_l    vr11, vr2 */
+	movl     $0, -80(%rbp)       /* mov_l    vr14, $0 */
+	movl     -80(%rbp), %r10d    /* mov_l    vr13, vr14 */
+	movl     %r10d, -88(%rbp)
+	movl     $0, -72(%rbp)       /* mov_l    vr15, $0 */
+	movl     -72(%rbp), %r10d    /* mov_l    vr12, vr15 */
+	movl     %r10d, -96(%rbp)
 	jmp      .L1                 /* jmp      .L1 */
 .L0:
-	movl     -80(%rbp), %r10d    /* sconv_lq vr14, vr12 */
+	movl     -96(%rbp), %r10d    /* sconv_lq vr16, vr12 */
 	movslq   %r10d, %r10
 	movq     %r10, -64(%rbp)
-	movq     -64(%rbp), %r10     /* mul_q    vr15, vr14, $4 */
+	movq     -64(%rbp), %r10     /* mul_q    vr17, vr16, $4 */
 	imulq    $4, %r10
 	movq     %r10, -56(%rbp)
-	movq     -96(%rbp), %r10     /* add_q    vr16, vr10, vr15 */
+	movq     -112(%rbp), %r10    /* add_q    vr18, vr10, vr17 */
 	addq     -56(%rbp), %r10
 	movq     %r10, -48(%rbp)
-	movq     -48(%rbp), %r11     /* mov_l    vr18, (vr16) */
+	movq     -48(%rbp), %r11     /* mov_l    vr20, (vr18) */
 	movl     (%r11), %r10d
 	movl     %r10d, -32(%rbp)
-	movl     -72(%rbp), %r10d    /* add_l    vr17, vr13, vr18 */
+	movl     -88(%rbp), %r10d    /* add_l    vr19, vr13, vr20 */
 	addl     -32(%rbp), %r10d
 	movl     %r10d, -40(%rbp)
-	movl     -40(%rbp), %r10d    /* mov_l    vr13, vr17 */
-	movl     %r10d, -72(%rbp)
-	movl     $1, -24(%rbp)       /* mov_l    vr19, $1 */
-	movl     -80(%rbp), %r10d    /* add_l    vr20, vr12, vr19 */
+	movl     -40(%rbp), %r10d    /* mov_l    vr13, vr19 */
+	movl     %r10d, -88(%rbp)
+	movl     $1, -24(%rbp)       /* mov_l    vr21, $1 */
+	movl     -96(%rbp), %r10d    /* add_l    vr22, vr12, vr21 */
 	addl     -24(%rbp), %r10d
 	movl     %r10d, -16(%rbp)
-	movl     -16(%rbp), %r10d    /* mov_l    vr12, vr20 */
-	movl     %r10d, -80(%rbp)
+	movl     -16(%rbp), %r10d    /* mov_l    vr12, vr22 */
+	movl     %r10d, -96(%rbp)
 .L1:
-	movl     -80(%rbp), %r10d    /* cmplt_l  vr21, vr12, vr11 */
-	cmpl     -88(%rbp), %r10d
+	movl     -96(%rbp), %r10d    /* cmplt_l  vr23, vr12, vr11 */
+	cmpl     -104(%rbp), %r10d
 	setl     %r10b
 	movzbl   %r10b, %r11d
 	movl     %r11d, -8(%rbp)
-	cmpl     $0, -8(%rbp)        /* cjmp_t   vr21, .L0 */
+	cmpl     $0, -8(%rbp)        /* cjmp_t   vr23, .L0 */
 	jne      .L0
-	movl     -72(%rbp), %eax     /* mov_l    vr0, vr13 */
+	movl     -88(%rbp), %eax     /* mov_l    vr0, vr13 */
 	jmp      .Lsum_return        /* jmp      .Lsum_return */
 .Lsum_return:
-	addq     $96, %rsp           /* leave    $0 */
+	addq     $112, %rsp          /* leave    $0 */
 	popq     %rbp
 	ret                          /* ret       */
 

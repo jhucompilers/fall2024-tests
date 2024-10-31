@@ -24,18 +24,18 @@ sum:
 	mov_l    vr12, vr15
 	jmp      .L1
 .L0:
-	sconv_lq vr14, vr12
-	mul_q    vr15, vr14, $4
-	add_q    vr16, vr10, vr15
-	mov_l    vr18, (vr16)
-	add_l    vr17, vr13, vr18
-	mov_l    vr13, vr17
-	mov_l    vr19, $1
-	add_l    vr20, vr12, vr19
-	mov_l    vr12, vr20
+	sconv_lq vr16, vr12
+	mul_q    vr17, vr16, $4
+	add_q    vr18, vr10, vr17
+	mov_l    vr20, (vr18)
+	add_l    vr19, vr13, vr20
+	mov_l    vr13, vr19
+	mov_l    vr21, $1
+	add_l    vr22, vr12, vr21
+	mov_l    vr12, vr22
 .L1:
-	cmplt_l  vr21, vr12, vr11
-	cjmp_t   vr21, .L0
+	cmplt_l  vr23, vr12, vr11
+	cjmp_t   vr23, .L0
 	mov_l    vr0, vr13
 	jmp      .Lsum_return
 .Lsum_return:

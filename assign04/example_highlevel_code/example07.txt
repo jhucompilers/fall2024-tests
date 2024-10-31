@@ -20,12 +20,12 @@ main:
 	add_l    vr17, vr10, vr16
 	cmpeq_l  vr18, vr17, vr11
 	cjmp_f   vr18, .L1
-	mov_l    vr13, $1
-	mov_l    vr12, vr13
+	mov_l    vr19, $1
+	mov_l    vr12, vr19
 	jmp      .L0
 .L1:
-	mov_l    vr13, $2
-	mov_l    vr12, vr13
+	mov_l    vr20, $2
+	mov_l    vr12, vr20
 .L0:
 	mov_l    vr0, vr12
 	jmp      .Lmain_return
