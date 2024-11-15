@@ -1,0 +1,1 @@
+input/bad_const_ptr.c:3:3:Error: Assignment to const variable
